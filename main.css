@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+#welcome-section{
+    min-height: 55vh;
+    padding-top: 45vh;
+    background-color: #DAE8E7;
+    top: 0;
+    text-align: center;
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    height: 40px;
+    background-color: #BFC3C3;
+    width: 100%;
+    padding-top: 12px;
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;    
+    border-right: 1px solid white;    
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.project-tile{
+    width: 340px;
+    height: 340px;
+    display: flex;
+    border: 1px solid grey;
+    margin: 20px auto;
+}
+.project-card_image{
+    height: 270px;
+}
+.tribute-page{
+    background: url("http://www.picshare.ru/uploads/190126/mIg5IyT109.jpg") center no-repeat;
+    background-size: 100%;
+}
+.project-link{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+.project-card_info{
+    display: grid;
+    padding: 0 8px;
+}
+.project-title{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.description{
+    
+}
+#contacts{
+    display: flex;
+    justify-content: center;
+}
+#contacts div{
+    display: grid;
+    grid-template-rows: 40px 80px;
+}
+#contacts span{
+    font-size: 30px;
+    text-align: center;
+}
+#profile-link{
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    font-size: 80px;
+    margin: auto;
+
+}
+
+@media (max-width: 764px){
+    #contacts span{
+    font-size: 20px;
+    text-align: center;
+}
+
+}
